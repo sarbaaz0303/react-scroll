@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-scroll/static/css/main.3dd5951f.chunk.css",
+    "main.js": "/react-scroll/static/js/main.19e2809e.chunk.js",
+    "main.js.map": "/react-scroll/static/js/main.19e2809e.chunk.js.map",
+    "runtime-main.js": "/react-scroll/static/js/runtime-main.0461399a.js",
+    "runtime-main.js.map": "/react-scroll/static/js/runtime-main.0461399a.js.map",
+    "static/js/2.3cbe805b.chunk.js": "/react-scroll/static/js/2.3cbe805b.chunk.js",
+    "static/js/2.3cbe805b.chunk.js.map": "/react-scroll/static/js/2.3cbe805b.chunk.js.map",
+    "index.html": "/react-scroll/index.html",
+    "static/css/main.3dd5951f.chunk.css.map": "/react-scroll/static/css/main.3dd5951f.chunk.css.map",
+    "static/js/2.3cbe805b.chunk.js.LICENSE.txt": "/react-scroll/static/js/2.3cbe805b.chunk.js.LICENSE.txt",
+    "static/media/spinner.8b736181.svg": "/react-scroll/static/media/spinner.8b736181.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0461399a.js",
+    "static/js/2.3cbe805b.chunk.js",
+    "static/css/main.3dd5951f.chunk.css",
+    "static/js/main.19e2809e.chunk.js"
+  ]
+}
