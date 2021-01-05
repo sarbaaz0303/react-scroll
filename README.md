@@ -1,1 +1,1 @@
-Enter query for search
+Enter Query for Search
