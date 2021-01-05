@@ -1,0 +1,25 @@
+// Fonts Poppins
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+// Colors
+$background-primary: #f5f5f5;
+$color-primary: #333333;
+
+// Global Reset
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $background-primary;
+    color: $color-primary;
+    font-family: "Poppins", sans-serif;
+}

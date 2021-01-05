@@ -1,0 +1,32 @@
+.image-container {
+    margin: 5rem auto 0 auto;
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
+    column-gap: 1.5rem;
+    grid-auto-rows: 1.5rem;
+}
+
+// Media Queries
+
+@media only screen and (max-width: 500px) {
+    .image-container {
+        margin: 3rem auto 0 auto;
+        grid-template-columns: 36rem;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .image-container {
+        grid-template-columns: 32rem;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .image-container {
+        grid-template-columns: 28rem;
+    }
+}
+@media only screen and (max-width: 280px) {
+    .image-container {
+        grid-template-columns: 24rem;
+    }
+}

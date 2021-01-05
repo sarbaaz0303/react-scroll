@@ -1,0 +1,17 @@
+.image {
+    width: 100%;
+    object-fit: contain;
+}
+
+// Media Queries
+@media only screen and (max-width: 1360px) {
+    .image{
+        margin-bottom: 1rem;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .image{
+        margin-bottom: 0;
+    }
+}
+

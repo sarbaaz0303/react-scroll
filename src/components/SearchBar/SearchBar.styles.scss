@@ -1,0 +1,102 @@
+// Colors
+$background-primary: #232526;
+$background-secondary: #414345;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-white: #fff;
+
+.form-container {
+    background: linear-gradient(
+        to right,
+        $background-primary,
+        $background-secondary
+    );
+    padding: 5rem 2rem 2rem 2rem;
+    letter-spacing: 1px;
+}
+
+.form {
+    margin: 0 auto;
+    max-width: 114rem;
+    color: $color-grey-light-1;
+
+    &-input {
+        display: block;
+        margin: 0 auto;
+        padding: 1.5rem 5rem;
+        font-size: 1.5rem;
+        font-family: inherit;
+        letter-spacing: inherit;
+        color: inherit;
+        border: none;
+        border-radius: 10rem;
+        width: 90%;
+        background-color: rgba($color-white, 0.5);
+        transition: all 0.3s;
+        &:focus {
+            outline: none;
+        }
+        &::-webkit-input-placeholder {
+            color: $color-grey-light-2;
+        }
+    }
+    &-label {
+        color: inherit;
+        font-size: 1.4rem;
+        font-weight: 400;
+        display: block;
+        margin-left: 11rem;
+        margin-bottom: 0.7rem;
+        transition: all 0.3s;
+        transform: translateY(-8rem);
+    }
+
+    &-input:placeholder-shown + &-label {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-4rem);
+    }
+}
+
+// Media Queries
+@media only screen and (max-width: 1200px) {
+    .form-container {
+        padding: 5rem 1.5rem 1.5rem 1.5rem;
+    }
+    .form-input {
+        margin: 0 auto;
+    }
+    .form-label {
+        margin-left: 10.5rem;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .form-label {
+        margin-left: 10rem;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .form-label {
+        margin-left: 9rem;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .form-label {
+        margin-left: 8rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .form-label {
+        margin-left: 7rem;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .form-input {
+        padding: 1rem 3rem;
+    }
+    .form-label {
+        margin-left: 4rem;
+    }
+}
