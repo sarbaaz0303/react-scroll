@@ -29,7 +29,7 @@ export default class App extends Component {
         try {
             const unsplash = await unsplashAPI.get("/search/photos", {
                 params: {
-                    query: this.state.query,
+                    query: query,
                     page: this.state.page,
                     per_page: this.state.per_page,
                 },
